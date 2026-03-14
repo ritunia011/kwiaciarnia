@@ -1,9 +1,79 @@
-body { background-color: #fff5f7; font-family: Arial, sans-serif; margin: 0; padding: 0; }
-#wrapper { max-width: 1000px; margin: 0 auto; background: white; padding: 20px; min-height: 100vh; }
-header { text-align: center; padding: 20px; }
-nav { background: #d8a7b1; text-align: center; padding: 10px; margin-bottom: 20px; }
-.menu { color: white; text-decoration: none; font-weight: bold; padding: 10px 20px; display: inline-block; }
-.menu:hover { background: #c6949e; }
-.left { float: left; width: 400px; margin-right: 20px; border-radius: 10px; }
-article { overflow: hidden; line-height: 1.6; }
-footer { text-align: center; padding: 20px; background: #eee; margin-top: 20px; }
+body {
+    background-color: #fff5f7; /* Delikatny różowy kolor tła */
+    font-family: 'Roboto', sans-serif; /* Czcionka ustawiona w HTML */
+    margin: 0;
+    padding: 0;
+}
+
+/* Kontener całej strony */
+#wrapper {
+    max-width: 1000px;
+    margin: 0 auto;
+    background-color: white;
+    min-height: 100vh;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+/* Nagłówek i Logo */
+header {
+    text-align: center;
+    padding: 20px 0;
+}
+
+.logo {
+    max-width: 300px;
+    height: auto;
+}
+
+/* Menu nawigacyjne */
+nav {
+    background-color: #d8a7b1; /* Ciemniejszy róż dla menu */
+    text-align: center;
+    padding: 10px 0;
+    margin-bottom: 30px;
+}
+
+.menu {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 10px 20px;
+    display: inline-block;
+    text-transform: uppercase;
+}
+
+.menu:hover {
+    background-color: #c6949e;
+}
+
+/* Treść strony */
+article {
+    overflow: hidden;
+    line-height: 1.8;
+}
+
+h1 {
+    color: #555;
+    border-bottom: 2px solid #d8a7b1;
+    padding-bottom: 10px;
+}
+
+
+.left {
+    float: left;
+    width: 450px;
+    margin-right: 25px;
+    margin-bottom: 15px;
+    border-radius: 8px;
+}
+ 
+/* Stopka */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #f9f9f9;
+    color: #888;
+    margin-top: 40px;
+    clear: both;
+}
