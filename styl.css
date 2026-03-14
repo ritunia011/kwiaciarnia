@@ -1,80 +1,60 @@
-body {
-    background-color: #fff5f7; 
-    font-family: 'Roboto', sans-serif; 
-    margin: 0;
-    padding: 0;
-}
-
-
 #wrapper {
     max-width: 1000px;
     margin: 0 auto;
     background-color: white;
     min-height: 100vh;
     padding: 20px;
-    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    box-sizing: border-box; 
 }
 
-header {
-    text-align: center;
-    padding: 20px 0;
-}
-
-logo {
-    max-width: 300px;
-    height: auto;
-}
 
 nav {
     background-color: #d8a7b1;
-    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
     padding: 10px 0;
     margin-bottom: 30px;
-    display: flex;          
-    justify-content: center; 
-    gap: 10px;
+    width: 100%;
 }
 
-menu {
+.menu {
     color: white;
     text-decoration: none;
     font-weight: bold;
-    padding: 10px 20px;
-    display: inline-block;
     text-transform: uppercase;
 }
 
-menu:hover {
-    background-color: #c6949e;
+
+.left {
+    float: left;
+    width: 300px;        
+    height: auto;        
+    margin-left: 20px;   
+    margin-right: 30px;  
+    margin-bottom: 20px;
+    border-radius: 15px;
 }
 
-article {
-    overflow: hidden;
-    line-height: 1.8;
-}
 
 h1 {
     color: #555;
-    border-bottom: none; 
-    padding-bottom: 10px;
+    border-bottom: none !important;
+    text-align: center;
 }
-.left {
-    float: left;
-    width: 250px;        
-    height: auto;        
-    margin-left: 20px;  
-    margin-right: 25px;  
-    margin-top: 10px;   
-    border-radius: 15px; 
-    box-shadow: 2px 2px 10px rgba(0,0,0,0.1); 
+
+
+section article {
+    overflow: hidden;
+    text-align: center;
 }
- 
+
 
 footer {
     text-align: center;
-    padding: 15px;
+    padding: 20px;
     background-color: #f9f9f9;
-    color: #888;
-    margin-top: 0; 
     clear: both;
+    margin-top: 20px;
 }
