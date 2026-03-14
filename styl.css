@@ -58,13 +58,15 @@ footer {
     clear: both;
     margin-top: 20px;
     
-main-title {
-    color: #d8a7b1; 
-    font-size: 40px;
+.main-title {
+    color: #d8a7b1 !important; 
+    font-size: 45px !important; 
     text-align: center;
-    padding: 20px 0;
+    padding: 30px 0;
     margin: 0;
-    font-weight: 900;
+    font-weight: 900 !important; 
+    font-family: 'Roboto', sans-serif;
+    background-color: white;
 }
 
 header {
