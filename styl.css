@@ -127,3 +127,16 @@ section article {
     margin-bottom: 20px;
     border-radius: 15px;
 }
+{ margin: 0; padding: 0; font-family: 'Arial', sans-serif; box-sizing: border-box; }
+body { background-color: #fff5f7; }
+#wrapper { max-width: 1000px; margin: 0 auto; background-color: white; min-height: 100vh; padding: 20px; }
+nav { background-color: #d8a7b1; display: flex; justify-content: center; align-items: center; gap: 20px; padding: 10px 0; margin-bottom: 30px; width: 100%; }
+.menu { color: white; text-decoration: none; font-weight: bold; text-transform: uppercase; }
+footer { text-align: center; padding: 20px; background-color: #f9f9f9; clear: both; margin-top: 20px; }
+
+.main-logo {
+    display: block;
+    margin: 0 auto 10px auto;
+    max-width: 250px;
+    height: auto;
+}
