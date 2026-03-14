@@ -57,13 +57,23 @@ footer {
     background-color: #f9f9f9;
     clear: both;
     margin-top: 20px;
-}
-header {
-    text-align: center; 
+    
+main-title {
+    color: #d8a7b1; 
+    font-size: 40px;
+    text-align: center;
     padding: 20px 0;
+    margin: 0;
+    font-weight: 900;
 }
 
-.logo {
+header {
+    background-color: white;
+    width: 100%;
+}
+
+
+logo {
     display: inline-block;
     max-width: 300px; 
     height: auto;
