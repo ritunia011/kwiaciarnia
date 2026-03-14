@@ -1,11 +1,11 @@
 body {
-    background-color: #fff5f7; /* Delikatny różowy kolor tła */
-    font-family: 'Roboto', sans-serif; /* Czcionka ustawiona w HTML */
+    background-color: #fff5f7; 
+    font-family: 'Roboto', sans-serif; 
     margin: 0;
     padding: 0;
 }
 
-/* Kontener całej strony */
+
 #wrapper {
     max-width: 1000px;
     margin: 0 auto;
@@ -15,7 +15,6 @@ body {
     box-shadow: 0 0 10px rgba(0,0,0,0.1);
 }
 
-/* Nagłówek i Logo */
 header {
     text-align: center;
     padding: 20px 0;
@@ -26,9 +25,8 @@ header {
     height: auto;
 }
 
-/* Menu nawigacyjne */
 nav {
-    background-color: #d8a7b1; /* Ciemniejszy róż dla menu */
+    background-color: #d8a7b1; /
     text-align: center;
     padding: 10px 0;
     margin-bottom: 30px;
@@ -47,7 +45,6 @@ nav {
     background-color: #c6949e;
 }
 
-/* Treść strony */
 article {
     overflow: hidden;
     line-height: 1.8;
@@ -62,13 +59,14 @@ h1 {
 
 .left {
     float: left;
-    width: 450px;
+    width: 30%; 
+    height: auto; 
     margin-right: 25px;
     margin-bottom: 15px;
     border-radius: 8px;
 }
  
-/* Stopka */
+
 footer {
     text-align: center;
     padding: 20px;
