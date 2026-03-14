@@ -1,1 +1,9 @@
-
+body { background-color: #fff5f7; font-family: Arial, sans-serif; margin: 0; padding: 0; }
+#wrapper { max-width: 1000px; margin: 0 auto; background: white; padding: 20px; min-height: 100vh; }
+header { text-align: center; padding: 20px; }
+nav { background: #d8a7b1; text-align: center; padding: 10px; margin-bottom: 20px; }
+.menu { color: white; text-decoration: none; font-weight: bold; padding: 10px 20px; display: inline-block; }
+.menu:hover { background: #c6949e; }
+.left { float: left; width: 400px; margin-right: 20px; border-radius: 10px; }
+article { overflow: hidden; line-height: 1.6; }
+footer { text-align: center; padding: 20px; background: #eee; margin-top: 20px; }
